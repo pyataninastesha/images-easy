@@ -1,0 +1,4 @@
+from PIL import Image
+im = Image.open('easy.png', 'r')
+p = list(im.getdata())
+print(p)
